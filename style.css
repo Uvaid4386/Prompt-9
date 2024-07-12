@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 50px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 94%;
+    margin: 10px 0px 0px 10px;
+}
+.tf{
+    width: 20%;
+}
+.tf>img{
+    width:90px;
+}
+.ts{
+    width:60%;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ts>a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.ts>a:hover{
+    text-decoration: overline;
+    transition: all 0.3s ease-out;
+}
+.tt{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+.ml{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    /* padding-top: 20px; */
+    text-align: center;
+}
+.ml img{
+    width: 100%;
+}
+.mr{
+    padding-top: 40px;
+    width: 65%;
+}
+.mr > img{
+    width: 100%;
+}
+#toppicks{
+    font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+}
+.bottom{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    height: 40%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    width: 15%;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 0px 10px grey;
+    transition: all 0.3s ease-out;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 15px;
+}
+.card:hover{
+    width: 17%;
+}
